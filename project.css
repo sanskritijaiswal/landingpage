@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'';
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height:100%;
+}
+
+
+main{
+    width:100%;
+    min-height: 100vh;
+}
+.top{
+    width:100%;
+    min-height: 60vh;
+    background-image: url(https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=400https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&cs=tinysrgb&w=400://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxkwY-4ppeIXZpIXaNXl9rF5yZTeBTlivD7gXzBNq90BVOGfUHwChD9EU&s://wallpapers.com/images/high/rcb-2928-x-3037-background-khpcy9ja3p4yhcjh.webp);
+    background-size: cover;
+    background-position: center;
+}
+.top .overlay{
+    position:relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.278);
+}
+.text{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width:100%;
+    padding: 0 10vh;
+    color:white;
+    bottom: 5%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+}
+.text .image{
+    background-image: url(https://images.pexels.com/photos/1596045/pexels-photo-1596045.jpeg?auto=compress&cs=tinysrgb&w=400https://images.pexels.com/photos/1317844/pexels-photo-1317844.jpeg?auto=compress&cs=tinysrgb&w=400https://images.pexels.com/photos/1851164/pexels-phohttps://images.pexels.com/photos/1317844/pexels-photo-1317844.jpeg?auto=compress&cs=tinysrgb&w=400to-1851164.jpeg?auto=compress&cs=tinysrgb&w=400https://wallpapers.com/images/high/rcb-1080-x-1350-background-2vs0f7dg3xvoln92.webp);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width:200px
+}
+.rtext{
+    display:flex;
+    width:25%;
+    align-items:center;
+    justify-content: space-between;
+}
+.rtext p{
+    font-size: 12px;
+}
+.bottom{
+    display: flex;
+    width:100%;
+    min-height: 40vh;
+
+}
+.b1{
+    width: 30%;
+    min-height: inherit;
+    background-image: url(https://images.pexels.com/photos/29151914/pexels-photo-29151914/free-photo-of-portrait-of-a-fluffy-norwegian-forest-cat.jpeg?auto=compress&cs=tinysrgb&w=400https://wallpapers.com/images/high/cricket-teammates-in-blue-dce7eau3gpscpnwk.webp);
+    background-size: cover;
+    background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+.b1 p{
+    color: white;
+    text-align:center;
+    padding:15px;
+}
+.b2{
+    width: 30%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.b2 .up{
+    width:100%;
+    min-height: 20vh;
+    background-image: url(https://images.pexels.com/photos/1440403/pexels-photo-1440403.jpeg?auto=compress&cs=tinysrgb&w=400https://images.pexels.com/photos/29106343/pexels-photo-29106343/free-photo-of-curious-orange-tabby-cat-in-serbian-countryside.jpeg?auto=compress&cs=tinysrgb&w=400https://images.pexels.com/photos/29125021/pexels-photo-29125021/free-photo-of-serene-tabby-cat-in-nathttps://images.pexels.com/photos/29106343/pexels-photo-29106343/free-photo-of-curious-orange-tabby-cat-in-serbian-countryside.jpeg?auto=compress&cs=tinysrgb&w=400ural-habitat.jpeg?auto=compress&cs=tinysrgb&w=400https://images.pexels.com/photos/460797/pexels-photo-460797.jpeg?auto=compress&cs=tinysrgb&w=400https://images.pexels.com/photos/29125021/pexels-photo-29125021/free-photo-of-serene-tabby-cat-in-natural-habitat.jpeg?auto=compress&cs=tinysrgb&w=400https://wallpapers.com/images/high/virat-kohli-in-sunglasses-yc8dfpcjssp3s4se.webp);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .up h1{
+    text-align: center;
+    padding: 30px;
+}
+.b2 .up p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.b2 .down{
+    width:100%;
+    min-height: 20vh;
+    background-image: url(https://images.pexels.com/photos/65006/pexels-photo-65006.jpeg?auto=compress&cs=tinysrgb&w=400https://wallpapers.com/images/high/handsome-virat-kohli-4j01eqnrivcntlqv.webp);
+    background-size: cover;
+    background-position: center; 
+}
+.b2 .down .overlay{
+    position: relative;
+    width:100%;
+    min-height: 20vh;
+    background-color: rgba(255, 255, 255, 0.344);
+}
+.b3{
+    width: 40%;
+    min-height: inherit;
+    background-image: url(https://images.pexels.com/photos/3974516/pexels-photo-3974516.jpeg?auto=compress&cs=tinysrgb&w=400https://wallpapers.com/images/high/athletic-virat-kohli-i5vhcy3yjh1cmhpw.webp);
+    background-size: cover;
+    background-position: center;
+}
+.b3 .overlay{
+    justify-content: right;
+    position: relative;
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    padding: 4vw 3vh;
+}
+.b3 .overlay p{
+    padding: 1.2vh;
+    color: white;
+}
+
+@media(max-width:500px){
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text h1{
+        font-size: 5vh;
+
+    }
+    .text .image{
+        height: 200px;
+        width: 140px;
+        margin-top: 20px;
+
+    }
+    .rtext{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rtext p{
+        margin-top: 10px;
+    }
+    .icons{
+        margin-top: 10px;
+    }
+    .bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .b1{
+        width: 100%;
+    }
+    .b2{
+        width: 100%;
+    }
+    .b2 .up{
+        min-height: 40vh;
+    }
+    .b3{
+        width: 100%;
+        
+    }
+}
